@@ -9,9 +9,11 @@
   </style>
 </head>  
 <body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<?php
+$name = "Hitesh";
+?>
+<h1>Hello <?php echo $name ?> </h1>
+<p>How are you doing today?, <?php echo $name ?></p>
   
 </body>
 </html>
