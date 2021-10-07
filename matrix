@@ -18,6 +18,11 @@ for (var i = 0; i < 2; i++) {
 		gfg[i][j] = h++;
 	}
 }
+for (var i = 0; i < 10000; i++) {
+	for (var j = 0; j < 12; j++) {
+		gfg[i][j] = t++;
+	}
+}
 
 // Loop to display the elements of 2D array.
 for (var i = 0; i < 2; i++) {
